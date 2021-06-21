@@ -120,5 +120,22 @@ Zusatzwebdienste:
 * `Legendensymbole <https://geoview.bl.ch/main/oereb/image/symbol/LandUsePlans/1/104306>`_ 
 * `SLD <https://geoview.bl.ch/main/oereb/sld>`_ für Print
 
+----
+
+pyramid_oereb nutzt `GitHub <https://github.com/openoereb/pyramid_oereb>`_ / `GIT <https://www.git-scm.com/doc>`_
+=================================================================================================================
+
+Was gehört dazu?
+
+* `./.gitattributes <https://github.com/openoereb/pyramid_oereb/blob/master/.gitattributes>`_ (`<https://www.git-scm.com/docs/gitattributes>`_)
+* `./.gitignore <https://github.com/openoereb/pyramid_oereb/blob/master/.gitignore>`_ (`<https://git-scm.com/docs/gitignore>`_)
+
+----
+
+pyramid_oereb muss anpassbar sein
+=================================
+
+* Es könnte so einfach sein
+* Anpassbarkeit macht Komplexität nötig
 
 
