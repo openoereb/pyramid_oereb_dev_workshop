@@ -169,6 +169,6 @@ Resultierender Aufbau
 Detail
 ======
 
-.. image:: images/base_architecture.png
+.. image:: images/detail.png
     :height: 600px
 
