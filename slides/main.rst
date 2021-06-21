@@ -64,6 +64,23 @@ Wichtige Befehle:
 
 ----
 
+pyramid_oereb nutzt `GitHub <https://github.com/openoereb/pyramid_oereb>`_ / `GIT <https://www.git-scm.com/doc>`_
+=================================================================================================================
+
+Was gehört dazu?
+
+* `./.gitattributes <https://github.com/openoereb/pyramid_oereb/blob/master/.gitattributes>`_ (`<https://www.git-scm.com/docs/gitattributes>`_)
+* `./.gitignore <https://github.com/openoereb/pyramid_oereb/blob/master/.gitignore>`_ (`<https://git-scm.com/docs/gitignore>`_)
+* `./.github/workflows/... <https://github.com/openoereb/pyramid_oereb/tree/master/.github/workflows>`_
+
+Was macht GitHub (bei jedem Push und jedem PullRequest)
+
+* Tests
+* Docs
+* Deploy zu PyPi
+
+----
+
 pyramid_oereb ist Python Package
 ================================
 
@@ -122,20 +139,36 @@ Zusatzwebdienste:
 
 ----
 
-pyramid_oereb nutzt `GitHub <https://github.com/openoereb/pyramid_oereb>`_ / `GIT <https://www.git-scm.com/doc>`_
-=================================================================================================================
+Es könnte so einfach sein ABER Anpassbarkeit macht Komplexität nötig
+========================================================================
 
-Was gehört dazu?
-
-* `./.gitattributes <https://github.com/openoereb/pyramid_oereb/blob/master/.gitattributes>`_ (`<https://www.git-scm.com/docs/gitattributes>`_)
-* `./.gitignore <https://github.com/openoereb/pyramid_oereb/blob/master/.gitignore>`_ (`<https://git-scm.com/docs/gitignore>`_)
+.. image:: images/overview.png
+    :height: 600px
 
 ----
 
-pyramid_oereb muss anpassbar sein
-=================================
+Uncle Bobs SOLID principles
+===========================
 
-* Es könnte so einfach sein
-* Anpassbarkeit macht Komplexität nötig
+* `Video <https://www.youtube.com/watch?v=zHiWqnTWsn4>`_ & `Beschreibung <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`_
+* Separation von Core und Umsystemen
+* Nutzung von Interfaces
+* Wann immer möglich Dependency Inversion
+* Umsetzung in pyramid_oereb nicht annähernd komplett aber immerhin...
 
+----
+
+Resultierender Aufbau
+=====================
+
+.. image:: images/base_architecture.png
+    :height: 600px
+
+----
+
+Detail
+======
+
+.. image:: images/base_architecture.png
+    :height: 600px
 
