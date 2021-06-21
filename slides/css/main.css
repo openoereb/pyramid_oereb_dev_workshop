@@ -1,0 +1,54 @@
+@font-face {
+  font-family: LatoThin;
+  src: url(../fonts/Lato-Thin.ttf);
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url(../fonts/Lato-Black.ttf);
+}
+
+
+body {
+  font-family: LatoThin;
+  font-size: 150%;
+  color:  black;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 200%
+}
+
+h2 {
+  text-align: center;
+  font-size: 170%
+}
+
+h3 {
+  text-align: center;
+  font-size: 160%
+}
+
+h4 {
+  text-align: center;
+  font-size: 155%
+}
+
+.footer {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-size: 80%;
+}
+
+.header {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+div#slide-number {
+  font-size: 80%
+}
