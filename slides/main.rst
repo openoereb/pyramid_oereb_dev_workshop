@@ -88,6 +88,7 @@ pyramid_oereb ist Python Package
 * `Erstellen <https://packaging.python.org/tutorials/packaging-projects/>`_
 
 Was gehört dazu?
+
 * `./setup.py <https://github.com/openoereb/pyramid_oereb/blob/master/setup.py>`_
 * `./setup.cfg <https://github.com/openoereb/pyramid_oereb/blob/master/setup.cfg>`_
 * `./requirements.txt <https://github.com/openoereb/pyramid_oereb/blob/master/requirements.txt>`_ / `./requirements-windows.txt <https://github.com/openoereb/pyramid_oereb/blob/master/requirements-windows.txt>`_ und evtl. requirements für Tests
